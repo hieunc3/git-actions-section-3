@@ -6,7 +6,7 @@ on:
 #Create env variables for all job
 env:
   #WF_ENV: Available to all jobs
-  WF_ENV:  ${{  secrets. SECRETS_INFO }}
+  WF_ENV:  ${{  secrets.KEY_COLLECT }}
 
 jobs:
   log-env:
